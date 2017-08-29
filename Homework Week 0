@@ -1,0 +1,18 @@
+﻿using NUnit.Framework;
+using System;
+namespace Homework
+{
+    [TestFixture()]
+    public class Test
+    {
+        [Test()]
+        public void TestCase()
+        // in the public void is where the  bulk of you code will go
+        {//This is a program that will write the line Hello World
+            //then it will display the line line Hello WOrld
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
+        }
+    }
+}
+z
